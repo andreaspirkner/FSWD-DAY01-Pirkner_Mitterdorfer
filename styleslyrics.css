@@ -1,0 +1,70 @@
+charset "utf-8";
+
+body {
+	font: 100%/1.4 Roboto, sans-serif;
+	
+	margin: 0;
+	padding: 0;
+	color: #3a5b87;
+}
+
+
+.sidebar1 {
+	float: left;
+	width: 18%;
+    position: fixed;
+	padding-bottom: 10px;
+}
+.content {
+	
+	padding: 10px 0;
+	width: 80%;
+	float: right;
+	}
+
+.container{
+	width: 80%;
+	max-width: 1260px;
+	min-width: 780px;
+	margin: 0 auto;
+}
+
+.content {
+	
+	padding: 10px 0;
+	width: 75%;
+	float: right;
+}
+
+.content ul, .content ol { 
+	 padding: 0 15px 15px 40px;
+}
+ul.nav{
+	list-style: none; 
+	border-top: 1px solid #c9dae2;
+	margin-bottom: 15px;
+	
+}
+ul.nav li {
+	border-bottom: 1px solid #c9dae2 /* Hiermit wird die Trennung der Schaltflächen erstellt. */
+
+	
+}
+ul.nav a, ul.nav a:visited { 
+	padding: 5px 5px 5px 15px;
+	display: block; 
+	text-decoration: none;
+	/*background: #c9dae2;*/
+	color: #3a5b87;
+}
+ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* Hiermit wird der Hintergrund und die Textfarbe bei der Navigation mit der Maus und der Tastatur geändert. */
+	background: #6F7D94;
+	color: #FFF;
+}
+		
+ul, ol, dl { /* Aufgrund von Abweichungen zwischen verschiedenen Browsern empfiehlt es sich, die Auffüllung und den Rand in Listen auf 0 einzustellen. Zu Konsistenzzwecken können Sie die gewünschten Werte entweder hier oder in den enthaltenen Listenelementen (LI, DT, DD) eingeben. Beachten Sie, dass die hier eingegebenen Werte hierarchisch auf die .nav-Liste angewendet werden, sofern Sie keinen spezifischeren Selektor festlegen. */
+	padding: 0;
+	margin: 0;
+}
+						   
+						   
